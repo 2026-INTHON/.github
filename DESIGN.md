@@ -6,7 +6,7 @@
 
 ## 시각 방향
 
-- 기존 Malo 로고, 흰색 화면, 검정 버튼, 라임 강조를 유지한다. FE `src/lib/theme.ts`가 제품의 실제 토큰 소유자다.
+- 기존 Malo 로고, 베이지 배경, 흰색 카드, 검정 버튼, 라임 강조를 유지한다. Welcome은 언어 설정과 같은 배경에 30px 제목과 최대 96px 높이의 로고를 사용한다. FE `src/lib/theme.ts`가 제품의 실제 토큰 소유자다.
 - 제품 배경 `#F3F2EE`, 카드 `#FFFFFF`, 글자 `#111111`, 강조 `#D4FF4F`를 참고하되 README 본문은 GitHub 테마를 따른다.
 - 첫 이미지는 사용자 발표자료의 표지다. 갤러리는 실제 실행 화면이며 클릭해 원본을 볼 수 있다. 새로운 가상 UI 목업을 만들지 않는다.
 - GitHub가 지원하는 Markdown·HTML·Mermaid만 사용한다. 이미지에는 한국어 대체 텍스트를 제공하고, 주요 내용은 본문으로도 설명한다.
@@ -24,7 +24,7 @@
 | 파일 | 출처 |
 | --- | --- |
 | `profile/assets/malo-cover.png` | 사용자 제공 최종 발표자료 1쪽을 Poppler로 렌더링 |
-| `profile/assets/malo-welcome.png` | Welcome 변경 후 430×932 실제 FE 브라우저 검증 화면 |
+| `profile/assets/malo-welcome-beige.png` | 베이지 배경·큰 제목 반영 후 430×932 실제 FE 브라우저 검증 화면 |
 | `profile/assets/malo-home.png` | 배포된 홈의 흰색 하단 카드 개선 검증 화면 |
 | `profile/assets/malo-briefing.png` | 실제 FE 장면 안내와 새 녹화 아이콘 검증 화면 |
 | `profile/assets/malo-feedback.png` | 배포된 대화별 상세 피드백 검증 화면 |
