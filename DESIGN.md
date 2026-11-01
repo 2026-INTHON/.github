@@ -1,42 +1,32 @@
-# 오답극장 소개 시각 방향
+# Malo Organization 소개
 
-## Scope
+## 목적과 기준
 
-GitHub Organization의 서비스 소개와 디자인 Mock. 제품 화면을 구현하거나 기능 완료를 주장하는 문서가 아니다.
-앱의 확정된 디자인 시스템을 대체하지 않으며, 실제 FE 구현은 사용자 테스트와 별도 검토를 거친다.
+2026 INTHON TEAM 삼김의 한국어 학습 서비스 Malo를 소개한다. 사용자 제공 `Malo 발표 PPT_최종.pdf`의 문제 정의·학습 과정·아키텍처와 현재 FE/BE/AI 구현을 근거로 작성한다. 과거 오답극장·영어 학습 소개는 현재 브랜드와 기능을 설명하지 않으므로 교체한다.
 
-## Audience and purpose
+## 시각 방향
 
-처음 방문한 한국어 사용자와 해커톤 동료가 서비스의 학습 경험을 한눈에 이해하도록 한다.
-사용자가 제공한 화면 보드를 우선 레퍼런스로 삼는다.
+- 기존 Malo 로고, 흰색 화면, 검정 버튼, 라임 강조를 유지한다. FE `src/lib/theme.ts`가 제품의 실제 토큰 소유자다.
+- 제품 배경 `#F3F2EE`, 카드 `#FFFFFF`, 글자 `#111111`, 강조 `#D4FF4F`를 참고하되 README 본문은 GitHub 테마를 따른다.
+- 첫 이미지는 사용자 발표자료의 표지다. 갤러리는 실제 실행 화면이며 클릭해 원본을 볼 수 있다. 새로운 가상 UI 목업을 만들지 않는다.
+- GitHub가 지원하는 Markdown·HTML·Mermaid만 사용한다. 이미지에는 한국어 대체 텍스트를 제공하고, 주요 내용은 본문으로도 설명한다.
 
-## Visual direction
+## 내용 구분
 
-- 배경: off-white `#f5f5f2`, 화면·대화 카드 `#ffffff`.
-- 글자와 버튼: `#111111`.
-- 주 강조: electric lime `#caff3d`.
-- 보조 강조: pink `#ff4e9e`, 연한 핑크 `#fff0f7`.
-- 크게 보이는 같은 3D 아트토이 캐릭터, 둥근 모바일 화면, 하단 대화·힌트 카드.
-- 한국어의 굵은 고딕 헤드라인과 충분한 본문 여백. README 본문은 GitHub 기본 글꼴을 따른다.
-- 캐릭터와 단계 흐름이 주인공이다. 가짜 수치·사용자 성과·장식용 배지는 넣지 않는다.
+- 현재: 서윤·윤 교수, 성격별 프로필, 한국어 대화와 네 가지 설명 언어, 단계별 힌트, O/△/X/? 학습 평가, 감정 이미지·음성, 리포트·재도전·PDF, 실제 화면 녹화.
+- 현재 구현은 감정별 이미지 선택이다. 폐기한 GLB 중심 표현이나 재구성 영상 생성을 현재 기능으로 소개하지 않는다.
+- 캐릭터 감정과 학습 평가는 별개다. 검증하지 않은 원음 감정 분석·발음 정확도나 사용자 학습 효과를 수치로 주장하지 않는다.
+- 친구·상사 확대, 개인화·커스터마이징·교육기관 연계와 수익화는 향후 계획으로 표시한다. 발표자료의 가정 가격·시장 수치를 검증된 성과로 쓰지 않는다.
+- 웹 데모와 네이티브 앱 출시는 구분한다. Lablup/DeepSeek 선택 경로를 현재 운영 중인 모델처럼 표시하지 않는다.
 
-## Meaning and accessibility
+## 이미지 출처
 
-- 모든 시각 자료는 디자인 Mock임을 이미지와 README에 명시한다.
-- 학습 모드에 목숨·준비시간 제한을 표시하지 않는다.
-- 음성 인식 확인 문장과 표현 피드백 사례는 일치시킨다.
-- 피드백은 표현·문법·의미 교정이며, 검증하지 않은 원음 감정·발음·억양 점수를 표시하지 않는다.
-- 전체 흐름은 이미지 외에도 본문과 표로 설명한다. 이미지에는 대체 텍스트를 제공한다.
+| 파일 | 출처 |
+| --- | --- |
+| `profile/assets/malo-cover.png` | 사용자 제공 최종 발표자료 1쪽을 Poppler로 렌더링 |
+| `profile/assets/malo-welcome.png` | Welcome 변경 후 430×932 실제 FE 브라우저 검증 화면 |
+| `profile/assets/malo-home.png` | 배포된 홈의 흰색 하단 카드 개선 검증 화면 |
+| `profile/assets/malo-briefing.png` | 실제 FE 장면 안내와 새 녹화 아이콘 검증 화면 |
+| `profile/assets/malo-feedback.png` | 배포된 대화별 상세 피드백 검증 화면 |
 
-## Asset ownership
-
-`profile/assets/odap-theater-mock.png`는 사용자 제공 레퍼런스를 바탕으로 built-in image generation으로 제작했다.
-실제 앱 스크린샷이 아니며, AI 생성 후 학습 모드와 피드백 의미의 일관성을 검수·수정했다.
-
-## References
-
-- [GitHub Organization README 규격](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile): 공개 `.github/profile/README.md` 구조.
-- [Dub README](https://github.com/dubinc/dub.link): 한 문장 소개, 주요 경험, 개발 저장소로 이어지는 간결한 정보 순서.
-- [LobeHub README](https://github.com/lobehub/lobe-chat): 시각 자료와 기능 설명을 함께 배치하는 방식.
-
-문구·이미지·성과 수치는 위 서비스에서 복사하지 않았다.
+기존 `odap-theater-mock.png`는 이전 작업 자료로 보존하지만 현재 README에서는 사용하지 않는다. 원본 발표 PDF는 공개 저장소에 업로드하지 않는다.
