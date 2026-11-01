@@ -6,7 +6,7 @@
 
 TEAM 삼김 · INTHON 2026 · 주제 **감각**
 
-[서비스 시작하기](https://inthon-demo-20261031-dh.koreacentral.cloudapp.azure.com/) · [화면 미리보기](#화면-미리보기) · [기술과 구조](#기술과-구조) · [저장소](#함께-만드는-저장소)
+[서비스 시작하기](https://inthon-demo-20261031-dh.koreacentral.cloudapp.azure.com/) · [화면 미리보기](#user-content-화면-미리보기) · [기술과 구조](#user-content-기술과-구조) · [저장소](#user-content-함께-만드는-저장소)
 
 <img src="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-cover.png" width="100%" alt="Malo 발표자료 표지: 새로운 한국어 감각, 서윤과 대화하는 화면과 성격 선택 화면" />
 
