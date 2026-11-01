@@ -25,7 +25,7 @@ TEAM 삼김 · INTHON 2026 · 주제 **감각**
 ## 화면 미리보기
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-welcome.png"><img src="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-welcome.png" width="31%" alt="Welcome: Malo 로고와 네 캐릭터, 시작·Google 로그인·게스트 시작 버튼" /></a>
+  <a href="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-welcome-beige.png"><img src="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-welcome-beige.png" width="31%" alt="Welcome: Malo 로고와 네 캐릭터, 시작·Google 로그인·게스트 시작 버튼" /></a>
   <a href="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-home.png"><img src="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-home.png" width="31%" alt="홈: 윤 교수 포토카드, 오늘의 장면, 챕터·캐릭터 목록과 시작 버튼" /></a>
   <a href="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-briefing.png"><img src="https://raw.githubusercontent.com/2026-INTHON/.github/main/profile/assets/malo-briefing.png" width="31%" alt="장면 시작: 서윤과의 첫 만남 상황과 학습 목표, 상단 녹화 아이콘" /></a>
 </p>
